@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceMornitoringTool.API", "ServiceMornitoringTool.API", "{6325319B-5C28-46B8-8A4D-B17B3D942A68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceMornitoringTool.Web", "ServiceMornitoringTool.Web", "{14C606DD-52B8-46A9-864B-F6B3C7565C11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceMornitoringTool.Example.Api", "ServiceMornitoringTool.Example.Api", "{807F2C60-15A7-4086-BC41-0992A3EA3988}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceMornitoringTool.Example.Api", "ServiceMornitoringTool.Example.Api\ServiceMornitoringTool.Example.Api.csproj", "{D26AB939-A2C3-449C-92E3-169A286FB993}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceMornitoringTool.API", "ServiceMornitoringTool.API\ServiceMornitoringTool.API.csproj", "{52C3F291-49FB-4C8A-A8B2-2698186619B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceMornitoringTool.API.Core", "ServiceMornitoringTool.API.Core\ServiceMornitoringTool.API.Core.csproj", "{7548899F-41ED-4BFB-A17A-3E4294DACBB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceMornitoringTool.API.Relational", "ServiceMornitoringTool.API.Relational\ServiceMornitoringTool.API.Relational.csproj", "{BE724AC8-6D9B-4F79-BD33-7CA581769667}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceMornitoringTool.Web", "ServiceMornitoringTool.Web\ServiceMornitoringTool.Web.csproj", "{0DBB0F1C-0388-4FEB-AFD9-2DB51F7AE492}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceMonitoringTool.Wpf.Client", "ServiceMonitoringTool.Wpf.Client", "{31BFE76F-B2FA-4FDF-B6E5-7A2A1AC91146}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceMonitoringTool.Wpf.Client", "ServiceMonitoringTool.Wpf.Client\ServiceMonitoringTool.Wpf.Client.csproj", "{F8DDF834-0C52-4941-821F-EA494D925642}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D26AB939-A2C3-449C-92E3-169A286FB993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D26AB939-A2C3-449C-92E3-169A286FB993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D26AB939-A2C3-449C-92E3-169A286FB993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D26AB939-A2C3-449C-92E3-169A286FB993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52C3F291-49FB-4C8A-A8B2-2698186619B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C3F291-49FB-4C8A-A8B2-2698186619B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C3F291-49FB-4C8A-A8B2-2698186619B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C3F291-49FB-4C8A-A8B2-2698186619B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7548899F-41ED-4BFB-A17A-3E4294DACBB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7548899F-41ED-4BFB-A17A-3E4294DACBB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7548899F-41ED-4BFB-A17A-3E4294DACBB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7548899F-41ED-4BFB-A17A-3E4294DACBB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE724AC8-6D9B-4F79-BD33-7CA581769667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE724AC8-6D9B-4F79-BD33-7CA581769667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE724AC8-6D9B-4F79-BD33-7CA581769667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE724AC8-6D9B-4F79-BD33-7CA581769667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DBB0F1C-0388-4FEB-AFD9-2DB51F7AE492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBB0F1C-0388-4FEB-AFD9-2DB51F7AE492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DBB0F1C-0388-4FEB-AFD9-2DB51F7AE492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DBB0F1C-0388-4FEB-AFD9-2DB51F7AE492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8DDF834-0C52-4941-821F-EA494D925642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DDF834-0C52-4941-821F-EA494D925642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DDF834-0C52-4941-821F-EA494D925642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DDF834-0C52-4941-821F-EA494D925642}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D26AB939-A2C3-449C-92E3-169A286FB993} = {807F2C60-15A7-4086-BC41-0992A3EA3988}
+		{52C3F291-49FB-4C8A-A8B2-2698186619B4} = {6325319B-5C28-46B8-8A4D-B17B3D942A68}
+		{7548899F-41ED-4BFB-A17A-3E4294DACBB8} = {6325319B-5C28-46B8-8A4D-B17B3D942A68}
+		{BE724AC8-6D9B-4F79-BD33-7CA581769667} = {6325319B-5C28-46B8-8A4D-B17B3D942A68}
+		{0DBB0F1C-0388-4FEB-AFD9-2DB51F7AE492} = {14C606DD-52B8-46A9-864B-F6B3C7565C11}
+		{F8DDF834-0C52-4941-821F-EA494D925642} = {31BFE76F-B2FA-4FDF-B6E5-7A2A1AC91146}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5F6A166-835B-4D4B-BE8C-C6365525079D}
+	EndGlobalSection
+EndGlobal
